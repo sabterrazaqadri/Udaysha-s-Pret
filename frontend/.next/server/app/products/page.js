@@ -5,4 +5,4 @@
     price,
     salePrice,
     images
-  }`;return await o.L.fetch(e)}let n=60;async function p(){let e=await i();return(0,s.jsxs)("div",{className:"container mx-auto px-4 py-8",children:[s.jsx("h1",{className:"text-3xl font-bold mb-8",children:"Our Products"}),s.jsx("div",{className:"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6",children:e.map(e=>s.jsx(a.Z,{product:e},e._id))})]})}}};var r=require("../../webpack-runtime.js");r.C(e);var t=e=>r(r.s=e),s=r.X(0,[898,461,481,610,534],()=>t(46650));module.exports=s})();
+  }`;return await o.L.fetch(e)}let n=60;async function p(){let e=await i();return(0,s.jsxs)("div",{className:"container mx-auto px-4 py-8",children:[s.jsx("h1",{className:"text-3xl font-bold mb-8",children:"Our Products"}),s.jsx("div",{className:"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6",children:e.map(e=>s.jsx(a.Z,{product:e},e._id))})]})}}};var r=require("../../webpack-runtime.js");r.C(e);var t=e=>r(r.s=e),s=r.X(0,[898,875,481,292,534],()=>t(46650));module.exports=s})();
