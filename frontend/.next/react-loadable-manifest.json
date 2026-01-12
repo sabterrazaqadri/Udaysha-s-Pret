@@ -1,28 +1,29 @@
 {
   "node_modules\\@sanity\\client\\dist\\index.browser.js -> ./_chunks-es/stegaEncodeSourceMap.js": {
-    "id": "node_modules\\@sanity\\client\\dist\\index.browser.js -> ./_chunks-es/stegaEncodeSourceMap.js",
+    "id": 3139,
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_sanity_client_dist__chunks-es_stegaEncodeSourceMap_js.js"
+      "static/chunks/139.8b90d1e78eac34e6.js"
     ]
   },
   "node_modules\\@sanity\\client\\dist\\index.browser.js -> @sanity/eventsource": {
-    "id": "node_modules\\@sanity\\client\\dist\\index.browser.js -> @sanity/eventsource",
+    "id": 6247,
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_sanity_eventsource_browser_js.js"
+      "static/chunks/247.1a622580f14fda2b.js"
     ]
   },
   "node_modules\\@sanity\\visual-editing\\dist\\_chunks\\index-CCPqf31P.js -> ./Overlays-bQSRS-P9.js": {
-    "id": "node_modules\\@sanity\\visual-editing\\dist\\_chunks\\index-CCPqf31P.js -> ./Overlays-bQSRS-P9.js",
+    "id": 2305,
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_sanity_visual-editing_dist__chunks_Overlays-bQSRS-P9_js.js"
+      "static/chunks/b8e21824.67a3b5c301b20b0d.js",
+      "static/chunks/169.c8bac0d3d058831f.js"
     ]
   },
   "node_modules\\@sanity\\visual-editing\\dist\\_chunks\\index-CCPqf31P.js -> react-dom/client": {
-    "id": "node_modules\\@sanity\\visual-editing\\dist\\_chunks\\index-CCPqf31P.js -> react-dom/client",
+    "id": 4040,
     "files": []
   },
   "node_modules\\next-sanity\\dist\\visual-editing\\index.js -> ./VisualEditing.js": {
-    "id": "node_modules\\next-sanity\\dist\\visual-editing\\index.js -> ./VisualEditing.js",
+    "id": 5306,
     "files": []
   }
 }
