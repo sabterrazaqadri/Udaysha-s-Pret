@@ -1,55 +1,72 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.1.0 → 1.0.0
+- Modified principles: All principles newly defined for Udaysha's Pret project
+- Added sections: Core Principles (6), Additional Constraints, Development Workflow
+- Removed sections: None
+- Templates requiring updates: N/A (new project constitution)
+- Follow-up TODOs: None
+-->
+
+# Udaysha's Pret Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Repository Integrity
+The existing Golden Orchard Perfumes repository must be pulled and reused, not recreated. File structure must be evolved, not replaced. The repo at https://github.com/sabterrazaqadri/Golden-Orchard-Perfumes serves as the foundation for this project.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### No Generative Redesign
+No new brand concepts, layouts, or creative directions are allowed. Existing layout patterns must be adapted, not reinvented. All design elements must be evolved from the existing codebase rather than creating new ones.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### CMS-First Control
+All products, collections, and pages must be CMS-driven. No hardcoded business content after migration. All dynamic content must be sourced from the CMS to ensure maintainability and flexibility.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Ecommerce Readiness
+Website must support scalable ecommerce features (cart, checkout later). Initial checkout may be non-payment (WhatsApp / inquiry based). The system must be architected to support future payment integrations.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Automation Authority
+Qwen (SpecifyPlus) is the sole execution agent. Humans only define constraints and validate output. All implementation work must be performed through automated tools and processes.
 
-### [PRINCIPLE_6_NAME]
+### Foundational Rules Compliance
+All development must adhere to the explicitly defined non-negotiable rules: No new Next.js app scaffolding, No removal of App Router, No replacement of Tailwind, No monolithic page logic, No vendor-locked ecommerce platform.
 
+## Additional Constraints
 
-[PRINCIPLE__DESCRIPTION]
+Technology Stack Requirements:
+- Next.js with App Router (must remain)
+- Tailwind CSS (must remain)
+- CMS integration for all dynamic content
+- Ecommerce functionality with cart and checkout capabilities
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+Repository Management:
+- Evolve existing structure rather than creating new
+- Maintain all existing functionality while adding new features
+- Ensure backward compatibility where possible
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Development Workflow
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+Code Review Requirements:
+- All changes must comply with the constitution principles
+- Repository integrity must be maintained
+- CMS-first approach must be verified
+- No hardcoded content allowed for business data
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Testing Gates:
+- All ecommerce functionality must be tested
+- CMS integration points must be validated
+- Responsive design must be verified across devices
+- Performance benchmarks must be met
+
+Deployment Approval Process:
+- Staging environment validation required
+- Ecommerce functionality verification
+- CMS content rendering validation
+- Cross-browser compatibility check
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other development practices for the Udaysha's Pret project. All amendments require proper documentation, approval, and migration planning. The constitution ensures that the project remains aligned with its core mission of transforming the existing Golden Orchard Perfumes repository into a fashion ecommerce website while maintaining repository integrity and following the established constraints.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+All PRs and reviews must verify compliance with these principles. Any complexity introduced must be justified with clear benefits to the project's objectives.
+
+**Version**: 1.0.0 | **Ratified**: 2026-01-08 | **Last Amended**: 2026-01-08

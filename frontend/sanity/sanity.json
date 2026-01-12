@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "project": {
+    "name": "Udaysha's Pret",
+    "studioHost": "udayshas-pret"
+  },
+  "api": {
+    "projectId": "6bd2qwij",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "api": {
+        "dataset": "production"
+      }
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
